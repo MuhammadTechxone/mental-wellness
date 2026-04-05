@@ -1,0 +1,54 @@
+{
+  "user_id": "40577b7c",
+  "created_at": "2026-03-13T21:04:39.244947",
+  "assessments": [
+    {
+      "timestamp": "2026-03-13T21:05:09.234935",
+      "results": {
+        "primary_indicator": "normal",
+        "primary_percentage": 100.0,
+        "secondary_indicator": "anxiety",
+        "secondary_percentage": 0.0,
+        "distribution": {
+          "anxiety": 0.0,
+          "depression": 0.0,
+          "normal": 100.0,
+          "suicidal": 0.0
+        },
+        "total_sentences": 1
+      },
+      "responses": {
+        "q1": "i am normal",
+        "q2": "",
+        "q3": "",
+        "q4": "",
+        "q5": "",
+        "q6": ""
+      }
+    },
+    {
+      "timestamp": "2026-03-13T21:05:14.718544",
+      "results": {
+        "primary_indicator": "normal",
+        "primary_percentage": 100.0,
+        "secondary_indicator": "anxiety",
+        "secondary_percentage": 0.0,
+        "distribution": {
+          "anxiety": 0.0,
+          "depression": 0.0,
+          "normal": 100.0,
+          "suicidal": 0.0
+        },
+        "total_sentences": 1
+      },
+      "responses": {
+        "q1": "i am normal",
+        "q2": "",
+        "q3": "",
+        "q4": "",
+        "q5": "",
+        "q6": ""
+      }
+    }
+  ]
+}
