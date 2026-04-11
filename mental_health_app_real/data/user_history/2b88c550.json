@@ -1,0 +1,54 @@
+{
+  "user_id": "2b88c550",
+  "created_at": "2026-03-13T21:21:13.478735",
+  "assessments": [
+    {
+      "timestamp": "2026-03-13T21:21:37.472607",
+      "results": {
+        "primary_indicator": "normal",
+        "primary_percentage": 100.0,
+        "secondary_indicator": "anxiety",
+        "secondary_percentage": 0.0,
+        "distribution": {
+          "anxiety": 0.0,
+          "depression": 0.0,
+          "normal": 100.0,
+          "suicidal": 0.0
+        },
+        "total_sentences": 1
+      },
+      "responses": {
+        "q1": "",
+        "q2": "",
+        "q3": "i have been sleeping disturbingly",
+        "q4": "",
+        "q5": "",
+        "q6": ""
+      }
+    },
+    {
+      "timestamp": "2026-03-13T21:21:44.289871",
+      "results": {
+        "primary_indicator": "normal",
+        "primary_percentage": 100.0,
+        "secondary_indicator": "anxiety",
+        "secondary_percentage": 0.0,
+        "distribution": {
+          "anxiety": 0.0,
+          "depression": 0.0,
+          "normal": 100.0,
+          "suicidal": 0.0
+        },
+        "total_sentences": 1
+      },
+      "responses": {
+        "q1": "",
+        "q2": "",
+        "q3": "i have been sleeping disturbingly",
+        "q4": "",
+        "q5": "",
+        "q6": ""
+      }
+    }
+  ]
+}
