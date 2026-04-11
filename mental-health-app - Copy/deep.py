@@ -199,7 +199,7 @@ for i, class_label in enumerate(best_model.classes_):
     top_words = [(feature_names[j], coef[j]) for j in top_indices if j < len(feature_names)]
     
     print(f"\n{class_label.upper()}:")
-    for word, score in top_words[:5]:  # Show top 5 for small dataset
+    for word, score in top_words[:10]:  # Show top 5
         print(f"  {word}: {score:.3f}")
 
 # ------------------------------------
@@ -286,7 +286,7 @@ print(f"\nModel saved as '{model_filename}'")
 # ------------------------------------
 # 10. Practical Advice for Small Datasets
 # ------------------------------------
-print("\n" + "="*50)
+'''print("\n" + "="*50)
 print("PRACTICAL ADVICE FOR YOUR 1000-ROW DATASET")
 print("="*50)
 print("""
@@ -299,4 +299,4 @@ When you get your full 1000-row dataset:
 5. **Focus on recall for 'suicidal'**: In mental health, missing a suicidal case is worse than false alarm
 
 The current code is adjusted for the small sample, but will work perfectly with your real data!
-""")
+""")'''

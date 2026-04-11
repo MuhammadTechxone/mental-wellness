@@ -1134,7 +1134,7 @@ def render_analysis_page(model):
 
     st.markdown("### Sentence-Level Analysis")
     st.caption(
-        "Each sentence from your responses has been classified by the psychotherapy model. "
+        "Each sentence from your responses has been classified by the classifying model. "
         "Results below show the predicted indicator per sentence."
     )
 
@@ -1465,8 +1465,7 @@ def main():
     # ── Guard against missing model ───────────────────────────────────────────
     if model is None:
         st.error(
-            "The model could not be loaded. Please ensure "
-            "'psychotherapy_svm_model.pkl' is present in the application directory."
+            "The model could not be loaded."
         )
         st.stop()
 
