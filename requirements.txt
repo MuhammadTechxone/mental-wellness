@@ -1,7 +1,7 @@
 streamlit==1.54.0
 pandas==2.3.3
 numpy==2.2.6
-joblib==1.5.3
+joblib
 plotly==6.5.2
 seaborn==0.13.2
 matplotlib==3.10.8
